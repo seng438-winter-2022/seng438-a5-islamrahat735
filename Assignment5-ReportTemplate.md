@@ -67,6 +67,8 @@ In order to determine the MTTFmin, we tested the failure data that we used with 
 
 # Comparison of Results
 
+From the RDC method we were able to see that the program would be acceptable as long as the failure rate is below
+
 # Discussion on Similarity and Differences of the Two Techniques
 Reliability Growth Testing is based on inter failure times and/or failure count and target failure rate (or MTTF). However, Reliability Demonstration Chart is based on inter failure times only and target failure rate (or MTTF). Both techniques are similar in the sense that, they are both very important techniques for the analysis of integration test data.
 
