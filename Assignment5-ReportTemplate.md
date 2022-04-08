@@ -43,6 +43,20 @@ The drawback of using RGA however is that it is very in depth and takes some wor
 
 # Assessment Using Reliability Demonstration Chart 
 
+### MTTFmin
+
+![](./media/1.png)
+
+### Twice MTTFmin
+
+![](./media/2.png)
+
+### Half MTTFmin
+
+![](./media/3.png)
+
+In order to determine the MTTFmin, we tested the failure data that we used with various MTTF values until we generated a plot where the last failure data just about crosses into the acceptable plot range.
+
 | Advantages of RDC Analysis      | Disadvantages of RDC Analysis |
 |---------------------------------|-------------------------------|
 | Versatile | Only demonstrates the trend of changes and how they effect reliability|
