@@ -17,6 +17,12 @@ The focus of this lab is for students to familiarize themselves with various con
 
 # Assessment Using Reliability Demonstration Chart 
 
+| Advantages of RDC Analysis      | Disadvantages of RDC Analysis |
+|---------------------------------|-------------------------------|
+| Versatile | Only demonstrates the trend of changes and how they effect reliability|
+| Time efficient | Only indicates if SUT is acceptable or not |
+| Cost efficient | Experimenting with different confidence levels and MTTF is tedious|
+| Can be used to justify/support decisions |  
 # 
 
 # Comparison of Results
