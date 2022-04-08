@@ -16,7 +16,16 @@ The focus of this lab is for students to familiarize themselves with various con
 # Assessment Using Reliability Growth Testing 
 ## Result of Model Comparison
 
-Using the C-SFRAT tool we, compared all the models provided. Since that alone was about 15 different models, we chose to choose no covariates. We just passed in the time intervals and the associated number of failures as input. Upon running the analysis on the tool, we chose the model with the great number for log likelihood which in other words meant how well the models were representing the data. As seen from the table below, Our top two models were the S and IFRGSB models.
+Using the C-SFRAT tool we, compared all the models provided. Since that alone was about 15 different models, we chose to choose no covariates. We just passed in the time intervals and the associated number of failures as input. Upon running the analysis on the tool, we chose the model with the great number for log likelihood which in other words meant how well the models were representing the data. As seen from the table below, Our top two models were the S and IFRGSB models. Note that we chose to use a subset of the data from time 1 - 18 when we made models. The rationale will be given in the next section.
+### Model Comparison
+![](./media/6.png)
+
+### MVF Graph
+![](./media/7.png)
+
+### Failure Intensity Graph
+![](./media/8.png)
+
 
 ## Result of Range Analysis
 
@@ -24,7 +33,13 @@ To choose the best range, we wanted to test a single version fully. In other wor
 
 ## How Decision Making is Affected Given a Target Failure Rate
 
-After modelling failure data, you must check that the overall failure rate from the created models. We cannot provide this number as the tool does does not provide an overall failure rate. Next you must compare it to the given target failure rate. If the actual failure rate is below the target failure rate, then the program can be accepted into production. However, if the failure rate is above the target failure rate, then changes much be made to the program to mitigate failures before it can be delivered to the clients as a finished product. 
+After modelling failure data, you must check that the overall failure rate from the created models. We cannot provide this number as the tool does does not provide an overall failure rate. Next you must compare it to the given target failure rate. If the actual failure rate is below the target failure rate, then the program can be accepted into production. However, if the failure rate is above the target failure rate, then changes much be made to the program to mitigate failures before it can be delivered to the clients as a finished product.
+
+## Advantages and Disadvantages of Reliability Growth Analysis (RGA)
+
+The advantage of Reliability Growth Analysis is that it provides alot of metrics that can be analyzed from the failure data. For instance you can get insights of the MTTF, failure intensity and even the reliability of your program at any specified time through the use of (RGA).
+
+The drawback of using RGA however is that it is very in depth and takes some work to understand what the results even mean. In depth knowledge of RGA and how it works is required before using this methodology.
 
 # Assessment Using Reliability Demonstration Chart 
 
