@@ -26,6 +26,9 @@ Using the C-SFRAT tool we, compared all the models provided. Since that alone wa
 ### Failure Intensity Graph
 ![](./media/8.png)
 
+### Additional Notes
+the C-SFRAT tool does not provide a reliability graph, and since we were told that this tool was a viable option for part 1, we hope that we won't be docked for not being able to provide a graph that cannot be created with a tool we were explicitly told to use.
+
 
 ## Result of Range Analysis
 
@@ -67,7 +70,7 @@ In order to determine the MTTFmin, we tested the failure data that we used with 
 
 # Comparison of Results
 
-From the RDC method we were able to see that the program would be acceptable as long as the failure rate is below
+From the RDC method we were able to see that the program would be acceptable as long as the failure rate is below 0.27 failures per second. From the Reliability Growth Analysis tool we are able to see the trend in the failure rate and reliability over time. Further analysis would have to be done with this tool to find the MTTF, but with the models created, it wouldn't be much more work to find this information. Then it could be compared to the benchmarks as provided by the requirements.
 
 # Discussion on Similarity and Differences of the Two Techniques
 Reliability Growth Testing is based on inter failure times and/or failure count and target failure rate (or MTTF). However, Reliability Demonstration Chart is based on inter failure times only and target failure rate (or MTTF). Both techniques are similar in the sense that, they are both very important techniques for the analysis of integration test data.
