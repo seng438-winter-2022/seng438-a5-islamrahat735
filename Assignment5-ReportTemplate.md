@@ -28,6 +28,7 @@ The focus of this lab is for students to familiarize themselves with various con
 # Comparison of Results
 
 # Discussion on Similarity and Differences of the Two Techniques
+Reliability Growth Testing is based on inter failure times and/or failure count and target failure rate (or MTTF). However, Reliability Demonstration Chart is based on inter failure times only and target failure rate (or MTTF). Both techniques are similar in the sense that, they are both very important techniques for the analysis of integration test data.
 
 # How the team work/effort was divided and managed
 We split the work evenly across each person. We each spent time trying to understand what was required of us for this lab assignment, we then came to together shared our understanding of the requirements. We then all worked together on the same machine in order to complete the assignment and record the results.
