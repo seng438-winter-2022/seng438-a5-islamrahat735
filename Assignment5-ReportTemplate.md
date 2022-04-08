@@ -58,7 +58,7 @@ The drawback of using RGA however is that it is very in depth and takes some wor
 
 ![](./media/3.png)
 
-In order to determine the MTTFmin, we tested the failure data that we used with various MTTF values until we generated a plot where the last failure data just about crosses into the acceptable plot range.
+In order to determine the MTTFmin, we tested the failure data that we used with various MTTF values until we generated a plot where the last failure data just about crosses into the acceptable plot range. This is how we determined MTTFmin.
 
 | Advantages of RDC Analysis      | Disadvantages of RDC Analysis |
 |---------------------------------|-------------------------------|
