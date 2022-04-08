@@ -10,7 +10,7 @@
 |                 |  Mohammad Mahtab Khan |
 
 # Introduction
-The focus of this lab is for students to familiarize themselves with various concepts and tools required to assess the reliability of a system, given its failure data collected during integration testing. Reliability Growth Testing and Reliability assessment using Reliability Demonstration Chart (RDC) will be used.
+The focus of this lab is for students to familiarize themselves with various concepts and tools required for the analysis of integration test data using reliability assessment tools. Reliability Growth Testing and Reliability assessment using Reliability Demonstration Chart (RDC) will be used.
 # 
 
 # Assessment Using Reliability Growth Testing 
