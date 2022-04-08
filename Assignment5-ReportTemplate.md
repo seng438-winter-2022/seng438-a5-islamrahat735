@@ -14,6 +14,17 @@ The focus of this lab is for students to familiarize themselves with various con
 # 
 
 # Assessment Using Reliability Growth Testing 
+## Result of Model Comparison
+
+Using the C-SFRAT tool we, compared all the models provided. Since that alone was about 15 different models, we chose to choose no covariates. We just passed in the time intervals and the associated number of failures as input. Upon running the analysis on the tool, we chose the model with the great number for log likelihood which in other words meant how well the models were representing the data. As seen from the table below, Our top two models were the S and IFRGSB models.
+
+## Result of Range Analysis
+
+To choose the best range, we wanted to test a single version fully. In other words, if a program had a big update in the middle, the data would get skewed and come more difficult to model. at time 19, we can see that there was a big spike in failures. Our assumption was that this was a feature update of the program done in the middle. that is why we thought the two best ranges to test would be 19-31 and 1-18. 19-31 would be the best range as it is the most recent, but since C-SFRAT can only alter the upper bound of the range (the lower bound must be at 1) we chose to model the range 1-18. From the diagrams above, we can see some consistent failure curves that accurately follow the trend of the failure data provided
+
+## How Decision Making is Affected Given a Target Failure Rate
+
+After modelling failure data, you must check that the overall failure rate from the created models. We cannot provide this number as the tool does does not provide an overall failure rate. Next you must compare it to the given target failure rate. If the actual failure rate is below the target failure rate, then the program can be accepted into production. However, if the failure rate is above the target failure rate, then changes much be made to the program to mitigate failures before it can be delivered to the clients as a finished product. 
 
 # Assessment Using Reliability Demonstration Chart 
 
